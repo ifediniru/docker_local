@@ -9,8 +9,8 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Acada Learning, Calgary, Canada Office, This is cohort16 Landing page</h1>
-<h1 align="center">We are developing and supporting quality Software Solutions to millions of clients.
+<h1>Welcome to Acada Learning, Calgary, Canada Office, This is cohort16 Landing page</h1>
+<h1>We are developing and supporting quality Software Solutions to millions of clients.
 	We offer Training for DevOps with Linux and Cloud equipping IT Engineers for best performance. God Loves you and kelechi loves you more. Everyone will be hired with multiple job offers, Amen.</h1>
 <hr>
 <br>
@@ -45,7 +45,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Acada Learning - Consultant, Training and Software Development</p>
+<p>Acada Learning - Consultant, Training and Software Development</p>
 <p align=center><small>Copyrights 2022 by <a href="http://acadalearning.com/">Acada Learning</a> </small></p>
 
 </body>
