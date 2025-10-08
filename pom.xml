@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>2.0.7-SNAPSHOT</version>
+	<version>2.0.7-RELEASE</version>
 
 
 	<name>maven-web-application</name>
@@ -22,9 +22,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://sonarqube:9000</sonar.host.url>
-		<sonar.login>admin</sonar.login>
-		<sonar.password>sonar</sonar.password>
+		<sonar.host.url>http://3.80.136.66:9001</sonar.host.url>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<sonar.qualitygate.wait>true</sonar.qualitygate.wait>
@@ -97,17 +95,16 @@
 
 	<distributionManagement>
 	    <repository>
-	      <id>acada-release</id>
+	      <id>acada-demo-release-repo</id>
 	      <name>ACADA Learning release Nexus Repository</name>
-	      <url>http://nexus:8081/repository/maven-release-acada/</url>
+	      <url>http://192.168.2.202:8081/nexus/content/repositories/acada-demo-release-repo/</url>
 	    </repository>
 
 	    <snapshotRepository>
 	      <id>acada-snapshot</id>
 	      <name>ACADA Learning snapshot Nexus Repository </name>
-	      <url>http://nexus:8081/repository/maven-snapshot-acada/</url>
+	      <url>http://192.168.2.202:8081/nexus/content/repositories/acada-snapshot/</url>
 	    </snapshotRepository>
-
 	</distributionManagement>
 
 	<build>
